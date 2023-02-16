@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인스타 풀이</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/928e1c518a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form-container">
+            <div class="box">
+                <h1 class="logo">
+                    <img src="./images/logo-light.png" alt="instargram light-logo" class="logo-light">
+                    <img src="./images/logo-dark.png" alt="instargram dark-logo" class="logo-dark">
+                </h1>
+
+                <div class="signin-form" id="signin-form">
+                    <div class="form-group">
+                        <div class="animate-input">
+                            <span>전화번호, 사용자 이름 또는 이메일</span>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="animate-input">
+                            <span>비밀번호</span>
+                            <input type="password">
+                            <button>비밀번호 표시</button>
+                        </div>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="btn-login" id="btn-login" disabled>로그인</button>
+                    </div>
+
+                    <div class="or-box">
+                        <div></div>
+                        <div>또는</div>
+                        <div></div>
+                    </div>
+
+                    <div class="btn-group">
+                        <button class="btn-fb">
+                            <img src="./images/facebook-icon.png" alt="facebook-icon">
+                            <sapn>페이스북으로 로그인</sapn>
+                        </button>
+                    </div>
+                    <a href="" class="forgot-pw">
+                        비밀번호를 잊으셨나요?
+                    </a>
+                </div>
+            </div>
+
+            <div class="join-box box">
+                <p>
+                    계정이 없으신가요?
+                    <a href="">가입하기</a>
+                </p>
+            </div>
+
+            <div class="app-download">
+                <p>앱을 다운로드 하세요.</p>
+                <div class="store-link">
+                    <a href="">
+                        <img src="./images/app-store.png" alt="앱스토어">
+                    </a>
+                    <a href="">
+                        <img src="./images/gg-play.png" alt="구글플레이">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <ul class="links">
+                <li><a href="">Meta</a></li>
+                <li><a href="">소개</a></li>
+                <li><a href="">블로그</a></li>
+                <li><a href="">채용 정보</a></li>
+                <li><a href="">도움말</a></li>
+                <li><a href="">API</a></li>
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">약관</a></li>
+                <li><a href="">인기 계정</a></li>
+                <li><a href="">위치</a></li>
+                <li><a href="">Instagram Lite</a></li>
+                <li><a href="" id="darkmode-toggle">Darkmode</a></li>
+            </ul>
+            <div class="copyright">© 2023 Instagram from Meta</div>
+        </footer>
+    </div>
+    <script src="./js/insta.js"></script>
+</body>
+
+</html>

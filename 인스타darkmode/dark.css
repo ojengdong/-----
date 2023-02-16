@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #151515;
+}
+
+.wrapper {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.gnb {
+    border: 1px solid #262626;
+    border-radius: 7px;
+    width: 600px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    margin: 10px auto;
+}
+
+.inputbox {
+    position: relative;
+    margin: 5px auto;
+}
+
+#id-text {
+    color: #d2d2d2;
+    padding: 0 5px;
+    position: absolute;
+    top: 15px;
+    cursor: text;
+    width: 250px;
+    font-size: 14px;
+}
+
+#pw-text {
+    color: #d2d2d2;
+    padding: 0 5px;
+    position: absolute;
+    top: 15px;
+    cursor: text;
+    font-size: 14px;
+    width: 90px;
+}
+
+.inputbox label input {
+    background-color: #151515;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #262626;
+    padding: 0 10px;
+}
+
+.btn-box button {
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: skyblue;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+.btn-box button:hover {
+    background-color: blue;
+}
+
+.btn-box-boder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.btn-box-boder hr {
+    border: 1px solid #262626;    
+}
+
+.btn-box-boder p {
+    color: #d2d2d2;
+}
+
+.btn-box-boder * {
+    width: calc(300px / 3);
+}
+
+.facebook-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 7px;
+}
+
+.facebook-icon p {
+    color: darkblue;
+    transition: all 300ms ease-in-out;
+}
+
+.facebook-icon p:hover {
+    color: skyblue;
+}
+
+.icon-box img {
+    width: 24px;
+    height: 24px;
+}
+
+.pwchk-box {
+    margin: 20px 0;
+}
+
+.pwchk-box a {
+    color: darkblue;
+}
+
+.lnb {
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lnb-box {
+    border: 1px solid #262626;
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+.lnb-box p {
+    color: #d2d2d2;
+    padding: 35px 0;
+    margin: 0 auto;
+}
+
+.lnb-box span {
+    cursor: pointer;
+    color:skyblue
+}
+
+.lnb-box span:hover {
+    cursor: pointer;
+    color:  dodgerblue;
+}
+
+.download p {
+    color: #d2d2d2;
+    margin: 20px auto;
+}
+
+.download-img img {
+    width: 250px;
+    height: 75px;
+}
+
+.footerbox {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list li {
+    margin-right: 20px;
+}
+
+.footer-list li a {
+    color: gray;
+}
+
+#dark a {
+    transition: all 300ms ease-in-out;
+}
+
+#dark a:hover {
+    color: blue;
+}
+
+.footer-txt {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-txt p {
+    color: gray;
+    text-align: center;
+}

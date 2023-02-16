@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인스타그램 lightmode</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/928e1c518a.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="global-header">
+            <div class="gnb">
+                <div class="logobox">
+                    <h1 class="logo">
+                        <a href="../인스타darkmode/darkmode.html">
+                            <img src="../images/logo-light.png" alt="logo-light">
+                        </a>
+                    </h1>
+                </div>
+                <div class="inputbox">
+                    <label for="">
+                        <span id="id-text">전화번호, 사용자 이름 또는 이메일</span>
+                        <input type="text" name="userid">
+                    </label>
+                </div>
+                <div class="inputbox">
+                    <label for="">
+                        <span id="pw-text">비밀번호</span>
+                        <input type="password" name="userpw">
+                        <p></p> <p></p>
+                    </label>
+                </div>
+                <div class="btn-box">
+                    <button type="button">
+                        로그인
+                    </button>
+                    <div class="btn-box-boder">
+                        <hr>
+                        <p>또는</p>
+                        <hr>
+                    </div>
+                    <div class="icon-box">
+                        <a href="http://www.facebook.com" class="facebook-icon" target="_blank">
+                            <img src="../images/facebook-icon.png" alt="facebook">
+                            <p>Facebook으로 로그인하기</p>
+                        </a>
+                    </div>
+                    <div class="pwchk-box"><a href="">비밀번호를 잊으셨나요?</a></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="lnb">
+                <div class="lnb-box">
+                    <p>계정이 없으신가요?<span>가입하기</span></p>
+                </div>
+                <div class="download">
+                    <p>앱을 다운로드 하세요.</p>
+                    <div class="download-img">
+                        <img src="../images/app-store.png" alt="앱스토어">
+                        <img src="../images/gg-play.png" alt="구글플레이">
+                    </div>
+                </div>
+        </main>
+
+        <footer>
+            <div class="footerbox">
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="">Meta</a></li>
+                    <li class="footer-item"><a href="">소개</a></li>
+                    <li class="footer-item"><a href="">블로그</a></li>
+                    <li class="footer-item"><a href="">채용 정보</a></li>
+                    <li class="footer-item"><a href="">도움말</a></li>
+                    <li class="footer-item"><a href="">API</a></li>
+                    <li class="footer-item"><a href="">개인정보처리방침</a></li>
+                    <li class="footer-item"><a href="">약관</a></li>
+                    <li class="footer-item"><a href="">인기 계정</a></li>
+                    <li class="footer-item"><a href="">위치</a></li>
+                    <li class="footer-item"><a href="">instargram Lite</a></li>
+                    <li class="footer-item" id="dark"><a href="../인스타darkmode/darkmode.html">Darkmode</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-txt">
+                <p>© 2023 Instagram from Meta</p>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
